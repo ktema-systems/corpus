@@ -1,7 +1,7 @@
 {
   "format": "corpus-hub/0.2",
   "digest": "f53bd8ad171c2a748cf957858b62d412042afbbad49b4127cdd3fc8bd8caae42",
-  "export": "https://raw.githubusercontent.com/ktema-systems/corpus/main/export",
+  "export": "https://raw.githubusercontent.com/ktema-systems/corpus-board/main/export",
   "holds": [
     "vol",
     "docs",
