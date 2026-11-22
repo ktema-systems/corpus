@@ -1,10 +1,12 @@
 {
   "format": "corpus-hub/0.2",
-  "digest": "3ec8f04127c4c8a62e9f6f26e8a9fd265a385eb11d5bea69f244e9c4468cb2ab",
+  "digest": "f53bd8ad171c2a748cf957858b62d412042afbbad49b4127cdd3fc8bd8caae42",
   "export": "https://raw.githubusercontent.com/ktema-systems/corpus/main/export",
   "holds": [
     "vol",
     "docs",
+    "master",
+    "declarations",
     "export"
   ],
   "renderings": [
