@@ -1,43 +1,37 @@
 # Ktema Systems Corpus
 
-The published corpus of Ktema Systems. This repository holds no source. A publishing tool in the
-producing repository writes one commit per publish, and a reader takes what it needs from a ref.
+The published records of Ktema Systems. This repository holds no source. A producer deposits
+what it has settled; a viewer reads it.
 
 ## What it holds
 
-The hub carries the corpus rather than one of its renderings.
-
 | Path | What it is |
 |---|---|
-| `corpus/vol/` | the volume the engine wrote: one record per address, byte for byte |
+| `corpus/vol/` | the volume the engine wrote: one record per address |
 | `corpus/docs/` | the documents as written |
-| `corpus/master.md` | the plan and the decisions behind the corpus |
-| `corpus/subjects.json`, `corpus/depends.json` | the subjects a run belongs to and the claims a page depends on |
+| `corpus/master.md` | the plan behind the corpus |
+| `corpus/subjects.json`, `corpus/depends.json` | the subjects a run belongs to, and the claims a page rests on |
 | `export/` | the corpus as a viewer reads it: `bench.json`, `corpus.json`, `runs.json`, `values.json`, `docs/`, `documents.txt`, `digest` |
 
-`export/` is derived from `corpus/vol/` by the producing repository's assembly stage. It is here
-because it is the stable contract a viewer reads; a viewer that opened `vol/` directly would make
-the engine's frame format a public interface.
+`export/` is derived from `corpus/vol/`. A viewer reads `export/`, because a viewer that opened
+`vol/` directly would make the engine's frame format a public interface.
 
-`index.json` states the digest, what the hub holds, and the renderings built from it.
+## Reading it
 
-## How to read it
+Everything is served from `https://raw.githubusercontent.com/ktema-systems/corpus/main/`. A
+document's list is `export/documents.txt`.
 
-Everything is fetched from `https://raw.githubusercontent.com/ktema-systems/corpus/main/`. A viewer
-reads `export/`; a reader that wants the primary record reads `corpus/vol/`.
+`index.json` states the digest, what the repository holds, and the renderings built from it.
 
-A document's list travels as `export/documents.txt` rather than as a directory listing, because a
-raw host serves files and not directories.
+## Running it
 
-## What this does not establish
+```sh
+curl -sO https://raw.githubusercontent.com/ktema-systems/corpus/main/export/bench.json
+```
 
-The digest proves the export is the one a publisher wrote. It does not prove the numbers behind
-it: each run's own record establishes those. A rendering built from this export is a projection,
-and it states the digest it was built from.
-
-The media a demonstration was recorded from is not here. A manifest in `corpus/` names what a run
-was made from, and the recorded video is served from the asset bucket.
+The digest in `export/digest` is over `export/` alone, so a copy can be checked without the
+volume.
 
 ## Licence
 
-Apache 2.0, as the tree that produced the corpus.
+Apache 2.0.
