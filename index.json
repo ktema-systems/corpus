@@ -1,0 +1,19 @@
+{
+  "format": "corpus-hub/0.1",
+  "digest": "6eb0dbec0f44fef7261bb9e9368feba72749d5b98eee238c39c904d434509aef",
+  "export": "https://raw.githubusercontent.com/ktema-systems/corpus/main/export",
+  "renderings": [
+    {
+      "id": "site",
+      "title": "Ktema Systems Corpus Center",
+      "url": "https://demo.ktema.systems",
+      "role": "the pages, rendered once"
+    },
+    {
+      "id": "center",
+      "title": "Corpus Center",
+      "url": "https://corpus.ktema.systems",
+      "role": "the corpus as a board"
+    }
+  ]
+}
