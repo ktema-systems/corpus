@@ -1,38 +1,43 @@
 # Ktema Systems Corpus
 
-The published artifacts of the Ktema Systems corpus. This repository holds no source. A
-publishing tool in the producing repository writes one commit per publish, and a reader takes
-everything it needs from a single ref.
+The published corpus of Ktema Systems. This repository holds no source. A publishing tool in the
+producing repository writes one commit per publish, and a reader takes what it needs from a ref.
 
 ## What it holds
 
-`export/` is the corpus as an artifact. It is produced from a volume written by the engine and
-carries no timestamp of its own, so a given export names one state of the tree.
+The hub carries the corpus rather than one of its renderings.
 
 | Path | What it is |
 |---|---|
-| `export/bench.json` | the measurements, one entry per run with its revision and its numbers |
-| `export/corpus.json` | the produced units and the subjects they belong to |
-| `export/runs.json` | the demo runs |
-| `export/values.json` | every fact a run establishes, addressed by coordinate |
-| `export/docs/` | the documents as written, rendered by the site |
-| `export/documents.txt` | the document list a site build reads |
-| `export/digest` | the digest of the export it belongs to |
+| `corpus/vol/` | the volume the engine wrote: one record per address, byte for byte |
+| `corpus/docs/` | the documents as written |
+| `corpus/master.md` | the plan and the decisions behind the corpus |
+| `corpus/subjects.json`, `corpus/depends.json` | the subjects a run belongs to and the claims a page depends on |
+| `export/` | the corpus as a viewer reads it: `bench.json`, `corpus.json`, `runs.json`, `values.json`, `docs/`, `documents.txt`, `digest` |
 
-`index.json` names the export, the renderings built on it, and the digest they share.
+`export/` is derived from `corpus/vol/` by the producing repository's assembly stage. It is here
+because it is the stable contract a viewer reads; a viewer that opened `vol/` directly would make
+the engine's frame format a public interface.
+
+`index.json` states the digest, what the hub holds, and the renderings built from it.
 
 ## How to read it
 
-Every file is fetched from `https://raw.githubusercontent.com/ktema-systems/corpus/main/export`.
-There is no index to follow and no API call to make: a consumer resolves a unit by the address
-its fields compute, which is the same rule the engine uses.
+Everything is fetched from `https://raw.githubusercontent.com/ktema-systems/corpus/main/`. A viewer
+reads `export/`; a reader that wants the primary record reads `corpus/vol/`.
+
+A document's list travels as `export/documents.txt` rather than as a directory listing, because a
+raw host serves files and not directories.
 
 ## What this does not establish
 
 The digest proves the export is the one a publisher wrote. It does not prove the numbers behind
-it, which the run's own record establishes. A rendering built from this export is a projection,
+it: each run's own record establishes those. A rendering built from this export is a projection,
 and it states the digest it was built from.
+
+The media a demonstration was recorded from is not here. A manifest in `corpus/` names what a run
+was made from, and the recorded video is served from the asset bucket.
 
 ## Licence
 
-Apache 2.0, as the tree that produced the artifacts.
+Apache 2.0, as the tree that produced the corpus.
