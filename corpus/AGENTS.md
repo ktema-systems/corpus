@@ -95,7 +95,8 @@ a run  →  vol  →  export  →  a page
 
 | Step | Command | Writes |
 |---|---|---|
-| measure | manual: `./run.sh --bench [records...]` | `out/bench/volume-sweep/<created>/` with a manifest and a payload, then lands and exports |
+| measure | manual: `./run.sh --bench [records...]` | `out/bench/volume-sweep/<created>/` with a manifest and a payload |
+| the whole pipeline | `./run.sh --corpus` (`--no-bench` assembles what `out/` already holds) | the four steps below, in order |
 | land | `corpus/assembly/land.sh` | `vol/<activity>/<revision>/<platform>/<subject>/<created>.json` |
 | declare | `corpus/depends.json` | which subject each claim rests on; carried into the export |
 | export | `corpus/assembly/export.sh` | `export/bench.json`, one entry per subject, the latest by `created`; `export/corpus.json`, every record and the declaration |
