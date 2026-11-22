@@ -1,0 +1,24 @@
+{
+  "activity": "demo",
+  "subject": "robot",
+  "platform": "browser",
+  "revision": "3e1ecbc",
+  "created": "2026-11-21T11:00:22Z",
+  "class": "partial",
+  "claim": "A walk's steps, sensor readings and phone reaches resolve at one address, and an audit that never met the robot finds them.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "document": "docs/robot.md",
+    "platforms": [
+      "browser",
+      "host"
+    ]
+  },
+  "payload": "{\"title\":\"The walk, recorded end to end\",\"description\":\"A walking robot as the room a device answers in: every step, sensor reading and phone reach recorded at one address.\",\"platforms\":[\"browser\",\"host\"]}",
+  "content_hash": "sha256:7e673c92ddf7d438dd006a3d94c160adbf7ed1216d1b7b025b0b9a4fdba73a8b",
+  "ext": {
+    "planned": true
+  }
+}

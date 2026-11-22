@@ -1,0 +1,23 @@
+{
+  "activity": "demo",
+  "subject": "rtos-module",
+  "platform": "rtos",
+  "revision": "3e1ecbc",
+  "created": "2026-11-21T11:00:22Z",
+  "class": "partial",
+  "claim": "A firmware keeps its platform and gains a record layer in one partition, with no rewrite of its drivers.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "document": "docs/rtos-module.md",
+    "platforms": [
+      "rtos"
+    ]
+  },
+  "payload": "{\"title\":\"Integration with a shipped RTOS\",\"description\":\"The same engine as a member of an RTOS build, for a team whose product already has one.\",\"platforms\":[\"rtos\"]}",
+  "content_hash": "sha256:55d8a9c8b493c2e5701667e7037e83137a778fe91111094b6a800b9c3b989532",
+  "ext": {
+    "planned": true
+  }
+}

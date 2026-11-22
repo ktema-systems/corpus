@@ -1,0 +1,24 @@
+{
+  "activity": "bench",
+  "subject": "peer-baselines",
+  "platform": "host",
+  "revision": "8f7da4a+",
+  "created": "2026-11-21T10:56:43Z",
+  "class": "partial",
+  "claim": "appending one record at 100000 records costs 1.71us in an append log and 12.75us in SQLite",
+  "parameters": {
+    "sizes": [
+      1000,
+      10000,
+      100000,
+      1000000,
+      5000000
+    ],
+    "samples": 51,
+    "sqlite": "3.43.2",
+    "host": "Darwin arm64",
+    "peers_of": "volume-sweep"
+  },
+  "payload": "{\"append_log\":[{\"map_bytes\":65536,\"open_us\":50.083,\"point_read_us\":0.042,\"range_answers\":100,\"range_us\":5.250,\"records\":1000,\"volume_bytes\":253890,\"write_bytes\":255,\"write_us\":2.167},{\"map_bytes\":524288,\"open_us\":515.000,\"point_read_us\":0.042,\"range_answers\":1000,\"range_us\":41.167,\"records\":10000,\"volume_bytes\":2548890,\"write_bytes\":256,\"write_us\":1.667},{\"map_bytes\":4194304,\"open_us\":7711.208,\"point_read_us\":0.042,\"range_answers\":10000,\"range_us\":494.583,\"records\":100000,\"volume_bytes\":25588890,\"write_bytes\":257,\"write_us\":1.708},{\"map_bytes\":67108864,\"open_us\":120768.958,\"point_read_us\":0.042,\"range_answers\":100000,\"range_us\":5313.375,\"records\":1000000,\"volume_bytes\":256888890,\"write_bytes\":258,\"write_us\":5.750},{\"map_bytes\":268435456,\"open_us\":611490.083,\"point_read_us\":0.042,\"range_answers\":500000,\"range_us\":26683.875,\"records\":5000000,\"volume_bytes\":1288888890,\"write_bytes\":258,\"write_us\":1.625}],\"host\":\"Darwin arm64\",\"samples\":51,\"sqlite\":\"3.43.2\",\"sqlite_rows\":[{\"box_answers\":1051,\"box_index_build_us\":493.875,\"box_index_bytes\":82400,\"box_indexed_medium_bytes\":389120,\"box_indexed_us\":282.042,\"box_scan_medium_bytes\":311296,\"box_scan_us\":205.917,\"cache_bytes\":53504,\"open_us\":257.458,\"page_size\":4096,\"point_read_medium_bytes\":12288,\"point_read_us\":2.500,\"range_answers\":100,\"range_medium_bytes\":40960,\"range_us\":7.708,\"records\":1000,\"volume_bytes\":303104,\"write_bytes\":16480,\"write_us\":10.792},{\"box_answers\":10051,\"box_index_build_us\":3990.875,\"box_index_bytes\":729240,\"box_indexed_medium_bytes\":3665920,\"box_indexed_us\":3502.708,\"box_scan_medium_bytes\":2945024,\"box_scan_us\":1970.042,\"cache_bytes\":336384,\"open_us\":220.875,\"page_size\":4096,\"point_read_medium_bytes\":16384,\"point_read_us\":2.500,\"range_answers\":1000,\"range_medium_bytes\":307200,\"range_us\":59.042,\"records\":10000,\"volume_bytes\":2936832,\"write_bytes\":16480,\"write_us\":11.542},{\"box_answers\":23832,\"box_index_build_us\":50313.875,\"box_index_bytes\":14213656,\"box_indexed_medium_bytes\":8675328,\"box_indexed_us\":11384.083,\"box_scan_medium_bytes\":29278208,\"box_scan_us\":24350.250,\"cache_bytes\":3143424,\"open_us\":225.625,\"page_size\":4096,\"point_read_medium_bytes\":20480,\"point_read_us\":2.500,\"range_answers\":10000,\"range_medium_bytes\":2949120,\"range_us\":587.083,\"records\":100000,\"volume_bytes\":29270016,\"write_bytes\":16480,\"write_us\":12.750},{\"box_answers\":119160,\"box_index_build_us\":502133.083,\"box_index_bytes\":141832784,\"box_indexed_medium_bytes\":43372544,\"box_indexed_us\":70162.000,\"box_scan_medium_bytes\":292597760,\"box_scan_us\":235551.375,\"cache_bytes\":8753152,\"open_us\":227.417,\"page_size\":4096,\"point_read_medium_bytes\":24576,\"point_read_us\":2.625,\"range_answers\":100000,\"range_medium_bytes\":29278208,\"range_us\":11916.542,\"records\":1000000,\"volume_bytes\":292589568,\"write_bytes\":16480,\"write_us\":10.792},{\"box_answers\":500472,\"box_index_build_us\":2628151.500,\"box_index_bytes\":708975048,\"box_indexed_medium_bytes\":182153216,\"box_indexed_us\":428531.250,\"box_scan_medium_bytes\":1462882304,\"box_scan_us\":1186559.250,\"cache_bytes\":8753152,\"open_us\":213.375,\"page_size\":4096,\"point_read_medium_bytes\":24576,\"point_read_us\":2.542,\"range_answers\":500000,\"range_medium_bytes\":146309120,\"range_us\":56895.708,\"records\":5000000,\"volume_bytes\":1462878208,\"write_bytes\":4120,\"write_us\":9.292}],\"units\":{\"medium\":\"bytes\",\"time\":\"microseconds\"}}",
+  "content_hash": "sha256:cc8740df84894fb3d0c9bd3f20330531603323d45b2bf48d9dbe914420c3d13d"
+}

@@ -1,0 +1,23 @@
+{
+  "activity": "demo",
+  "subject": "reader-check",
+  "platform": "host",
+  "revision": "3e1ecbc",
+  "created": "2026-11-21T11:00:22Z",
+  "class": "partial",
+  "claim": "A read hands over the bytes on the medium, and one call says whether they are the record the address names.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "document": "docs/reader-check.md",
+    "platforms": [
+      "host"
+    ]
+  },
+  "payload": "{\"title\":\"Payload verification at the call site\",\"description\":\"The check a reader makes instead of trusting the writer, taken on a host where a byte can be changed and the answer compared.\",\"platforms\":[\"host\"]}",
+  "content_hash": "sha256:91c8b53c1c4a6de6741643395b6eb9e63a0d510d2f7ad26472d97a34538e25e8",
+  "ext": {
+    "planned": true
+  }
+}

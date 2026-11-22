@@ -1,0 +1,24 @@
+{
+  "activity": "demo",
+  "subject": "archive",
+  "platform": "bare-metal",
+  "revision": "3e1ecbc",
+  "created": "2026-11-21T11:00:22Z",
+  "class": "partial",
+  "claim": "The archive a team receives builds its own example, runs it, and counts the entry points it carries.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "document": "docs/archive.md",
+    "platforms": [
+      "bare-metal",
+      "host"
+    ]
+  },
+  "payload": "{\"title\":\"The release that checks itself\",\"description\":\"What a firmware team is handed: a header, a library per target, the specification, and an example that links and exits zero.\",\"platforms\":[\"bare-metal\",\"host\"]}",
+  "content_hash": "sha256:e4f980321bdbc41ea7b851d039a4fabb9fa826f97fc89141bd6b52257630b2e9",
+  "ext": {
+    "planned": true
+  }
+}

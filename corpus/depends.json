@@ -1,0 +1,13 @@
+{
+  "format": "corpus-depends/0.1",
+  "note": "A claim rests on the subjects listed here. A subject with no current record leaves the claim unbacked, which is what the four states report. A claim absent from this file is undeclared, and its state is unknown.",
+  "claims": {
+    "record-on-the-machine": ["esp32s3_fpga-litewing_icesugarpro-witness"],
+    "medium-survives-the-cut": ["esp32s3_fpga-litewing_icesugarpro-witness"],
+    "second-reader": [
+      "esp32s3_fpga-litewing_icesugarpro-witness",
+      "fpga-icesugarpro-audit"
+    ],
+    "cost-stays-flat": ["volume-sweep"]
+  }
+}

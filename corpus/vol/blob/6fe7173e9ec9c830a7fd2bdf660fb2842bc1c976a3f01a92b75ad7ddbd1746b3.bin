@@ -1,0 +1,23 @@
+{
+  "activity": "demo",
+  "subject": "medium-image",
+  "platform": "host",
+  "revision": "3e1ecbc",
+  "created": "2026-11-21T11:00:22Z",
+  "class": "partial",
+  "claim": "A device medium is opened on another machine, one address answers, and the time its node stamped survives.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "document": "docs/medium-image.md",
+    "platforms": [
+      "host"
+    ]
+  },
+  "payload": "{\"title\":\"The medium read off the device\",\"description\":\"The partition a device wrote is dumped and opened on a host, so a reader needs the medium rather than the device or a network.\",\"platforms\":[\"host\"]}",
+  "content_hash": "sha256:9fffb79aec76c43689d85f1b0e228faf275b8bfd81691af6b9f3bb5bc283e170",
+  "ext": {
+    "planned": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "activity": "demo",
+  "subject": "address-in-gates",
+  "platform": "fpga",
+  "revision": "3e1ecbc",
+  "created": "2026-11-21T11:00:22Z",
+  "class": "partial",
+  "claim": "The address a record is filed under is recomputed from the record in gates, with no processor in the path.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "document": "docs/address-in-gates.md",
+    "platforms": [
+      "fpga"
+    ]
+  },
+  "payload": "{\"title\":\"Address derivation in gates\",\"description\":\"The die stops checking values a host computed and derives the address itself, so the fabric is a second implementation of the address form rather than a checker of the host’s answer.\",\"platforms\":[\"fpga\"]}",
+  "content_hash": "sha256:04c723d627f8276caa64cb3606102e1a3e0b5cc412d6fb81fa432fed7d2b8c64",
+  "ext": {
+    "planned": true
+  }
+}

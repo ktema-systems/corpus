@@ -1,0 +1,9 @@
+{
+  "format": "corpus-subjects/0.1",
+  "note": "The sizes a page draws for a subject. A record whose sizes cover them is current for the subject, and one that covers fewer is history rather than a replacement. Nothing else about a record is declared here: the export carries the payload as the run wrote it, and the page decodes it.",
+  "subjects": {
+    "volume-sweep": { "sizes": [1000, 10000, 100000, 1000000] },
+    "peer-baselines": { "sizes": [1000, 10000, 100000, 1000000] },
+    "read-contract": { "sizes": [64, 11172] }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "activity": "demo",
+  "subject": "cold-boot",
+  "platform": "bare-metal",
+  "revision": "3e1ecbc",
+  "created": "2026-11-21T11:00:22Z",
+  "class": "partial",
+  "claim": "The engine writes into the part's own flash from a cold boot and reports the counts the next boot finds.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "document": "docs/cold-boot.md",
+    "platforms": [
+      "bare-metal"
+    ]
+  },
+  "payload": "{\"title\":\"Cold boot on the part\",\"description\":\"The LiteWing on the bench, switched on with nothing recorded, taking the record of a flight into its own flash and showing what the next boot reads.\",\"platforms\":[\"bare-metal\"]}",
+  "content_hash": "sha256:6904681a97aded4a9683e69c8f72be05125a24f1d45fc668d5193006031c65f4",
+  "ext": {
+    "planned": true
+  }
+}

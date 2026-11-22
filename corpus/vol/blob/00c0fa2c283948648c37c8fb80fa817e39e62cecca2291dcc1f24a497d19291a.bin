@@ -1,0 +1,22 @@
+{
+  "activity": "demo",
+  "subject": "c-abi",
+  "platform": "bare-metal",
+  "revision": "91aff9d",
+  "created": "2026-11-12T18:40:23Z",
+  "class": "partial",
+  "claim": "The same C test body linked from C and run under QEMU on a Cortex-M4 and a RISC-V core, with the same fifteen measurements on both.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "revision_inferred": true
+  },
+  "payload": "{\"command\":\"demo/tools/record/proof-capi-arch.sh\",\"cast\":\"https://asciinema.org/a/qKmoAREJtuVC2hej\",\"poster\":\"/proofs/c-abi.png\",\"video_bytes\":233307}",
+  "content_hash": "sha256:76bec7797a8496df26e9bd805104c653efd1fb0e6eed9ca70f6bc5760341f425",
+  "object": {
+    "path": "/proofs/c-abi.mp4",
+    "bytes": 233307,
+    "digest": "sha256:c57c156e86265fab5da77e6a33124d7c098cbbc0e9c7d8554286b9b7e97a14a4"
+  }
+}

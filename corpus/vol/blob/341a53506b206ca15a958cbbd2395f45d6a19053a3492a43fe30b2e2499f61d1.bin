@@ -1,0 +1,23 @@
+{
+  "activity": "demo",
+  "subject": "kernel-seam",
+  "platform": "microkernel",
+  "revision": "3e1ecbc",
+  "created": "2026-11-21T11:00:22Z",
+  "class": "partial",
+  "claim": "The kernel's certificate is its owner's; the record layer attaches through the medium contract and adds none of it.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "document": "docs/kernel-seam.md",
+    "platforms": [
+      "microkernel"
+    ]
+  },
+  "payload": "{\"title\":\"The medium contract at a kernel boundary\",\"description\":\"The seam written down rather than a port attempted: what a certified layer must hand over for the record to hold above it.\",\"platforms\":[\"microkernel\"]}",
+  "content_hash": "sha256:4b82f93c23d053e9e741578ce25167630757576ae96df84d1a6de646ecf3975b",
+  "ext": {
+    "planned": true
+  }
+}

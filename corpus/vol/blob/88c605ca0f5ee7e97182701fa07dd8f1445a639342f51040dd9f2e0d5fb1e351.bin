@@ -1,0 +1,22 @@
+{
+  "activity": "bench",
+  "subject": "volume-sweep",
+  "platform": "host",
+  "revision": "8b5e3a3+",
+  "created": "2026-11-21T10:53:53Z",
+  "class": "partial",
+  "claim": "a point read costs 0.96us at 1000 records and 1.79us at 1000000",
+  "parameters": {
+    "sizes": [
+      1000,
+      10000,
+      100000,
+      1000000
+    ],
+    "profile": "release",
+    "samples": 51,
+    "medium_from": "verify/region/check.sh"
+  },
+  "payload": "{\"commit\":\"8b5e3a3\",\"dirty\":true,\"profile\":\"release\",\"samples\":51,\"units\":{\"medium\":\"bytes\",\"time\":\"microseconds\"},\"unix_seconds\":1795258433,\"volumes\":[{\"open_us\":0.25,\"point_read_accesses\":25,\"point_read_medium_bytes\":2785,\"point_read_us\":0.9590000000000001,\"query_answers\":101,\"query_medium_bytes\":577701,\"query_us\":106.792,\"records\":1000,\"region_bytes\":4962304,\"scattered_answers\":1000,\"scattered_medium_bytes\":577701,\"scattered_us\":118.458,\"volume_bytes\":485019,\"write_medium_bytes\":482,\"write_us\":4.458},{\"open_us\":0.5419999999999999,\"point_read_accesses\":75,\"point_read_medium_bytes\":7079,\"point_read_us\":1.125,\"query_answers\":1001,\"query_medium_bytes\":8317376,\"query_us\":1421.25,\"records\":10000,\"region_bytes\":11874304,\"scattered_answers\":10000,\"scattered_medium_bytes\":8317376,\"scattered_us\":1591.541,\"volume_bytes\":4931941,\"write_medium_bytes\":483,\"write_us\":4.583},{\"open_us\":0.792,\"point_read_accesses\":97,\"point_read_medium_bytes\":10990,\"point_read_us\":1.333,\"query_answers\":10008,\"query_medium_bytes\":109628159,\"query_us\":23944.625,\"records\":100000,\"region_bytes\":80994304,\"scattered_answers\":22344,\"scattered_medium_bytes\":109628159,\"scattered_us\":24803.5,\"volume_bytes\":49275418,\"write_medium_bytes\":484,\"write_us\":5.0},{\"open_us\":1.5,\"point_read_accesses\":179,\"point_read_medium_bytes\":20393,\"point_read_us\":1.792,\"query_answers\":98968,\"query_medium_bytes\":1623966552,\"query_us\":322745.33300000004,\"records\":1000000,\"region_bytes\":772194304,\"scattered_answers\":111720,\"scattered_medium_bytes\":1623966552,\"scattered_us\":323557.834,\"volume_bytes\":495261336,\"write_medium_bytes\":485,\"write_us\":7.459}]}",
+  "content_hash": "sha256:8f6d69f3686eb38472de0ef1961e94a5d41db9e2d31834a92ed043c1d4bbc3ae"
+}

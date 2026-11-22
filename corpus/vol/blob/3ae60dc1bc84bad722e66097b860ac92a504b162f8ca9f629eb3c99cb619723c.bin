@@ -1,0 +1,22 @@
+{
+  "activity": "demo",
+  "subject": "smoke",
+  "platform": "host",
+  "revision": "91aff9d",
+  "created": "2026-11-12T18:40:22Z",
+  "class": "partial",
+  "claim": "Thirteen steps, eight records, one digest: the same run the device tier converges on.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "revision_inferred": true
+  },
+  "payload": "{\"command\":\"target/debug/ktema-sim verify/scenarios/smoke.txt target/demo/smoke --reset\",\"cast\":\"https://asciinema.org/a/mysRyRmijvsN4OKB\",\"poster\":\"/proofs/smoke.png\",\"video_bytes\":41014}",
+  "content_hash": "sha256:8af6dbaf2247cddf25ebee67e44cf5a7d60bfd6226d792a200a4e4caa7bc1501",
+  "object": {
+    "path": "/proofs/smoke.mp4",
+    "bytes": 41014,
+    "digest": "sha256:93e7a7d2e997c1712fc5870b23dd4aac3e7446d95a742cbc5100be1504c26621"
+  }
+}

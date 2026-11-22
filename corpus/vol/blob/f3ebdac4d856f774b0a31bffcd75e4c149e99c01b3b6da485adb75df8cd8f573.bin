@@ -1,0 +1,22 @@
+{
+  "activity": "demo",
+  "subject": "faults",
+  "platform": "host",
+  "revision": "91aff9d",
+  "created": "2026-11-12T18:41:29Z",
+  "class": "partial",
+  "claim": "A medium that refuses a write, a worn medium, and a channel that holds a write past the end of the run.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "revision_inferred": true
+  },
+  "payload": "{\"command\":\"verify/faults/check.sh\",\"cast\":\"https://asciinema.org/a/8QtqYOV6IhY6CIXY\",\"poster\":\"/proofs/faults.png\",\"video_bytes\":28723}",
+  "content_hash": "sha256:e28a8c8e8d60621b80ef9da8e9a8d8791aa62759294f1759fbc748e802fd50ec",
+  "object": {
+    "path": "/proofs/faults.mp4",
+    "bytes": 28723,
+    "digest": "sha256:3235315f6081a910591ef265b5103959d56ca1c8a785cc6abcc9efc4958207e6"
+  }
+}

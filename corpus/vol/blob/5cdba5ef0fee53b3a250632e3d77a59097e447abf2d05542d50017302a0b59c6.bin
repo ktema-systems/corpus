@@ -1,0 +1,19 @@
+{
+  "activity": "bench",
+  "subject": "volume-sweep",
+  "platform": "host",
+  "revision": "aa025b0+",
+  "created": "2026-11-06T16:55:07Z",
+  "class": "partial",
+  "claim": "a point read costs 1.75us at 1000 records and 1.63us at 10000",
+  "parameters": {
+    "sizes": [
+      1000,
+      10000
+    ],
+    "profile": "release",
+    "samples": 51
+  },
+  "payload": "{\"commit\":\"aa025b0\",\"dirty\":true,\"profile\":\"release\",\"samples\":51,\"units\":{\"medium\":\"bytes\",\"time\":\"microseconds\"},\"unix_seconds\":1793984107,\"volumes\":[{\"open_us\":26.459,\"point_read_accesses\":51,\"point_read_medium_bytes\":5799,\"point_read_us\":1.75,\"query_answers\":101,\"query_medium_bytes\":751735,\"query_us\":180.375,\"records\":1000,\"region_bytes\":4962304,\"volume_bytes\":496776,\"write_medium_bytes\":482,\"write_us\":6.042},{\"open_us\":66.541,\"point_read_accesses\":170,\"point_read_medium_bytes\":16537,\"point_read_us\":1.625,\"query_answers\":1001,\"query_medium_bytes\":15324827,\"query_us\":2422.25,\"records\":10000,\"region_bytes\":11874304,\"volume_bytes\":4942075,\"write_medium_bytes\":483,\"write_us\":5.25}]}",
+  "content_hash": "sha256:8acba4a301627ee7e8fdabac32bc4e5b26e4b6f28fdd07db147a2384db5cbafd"
+}

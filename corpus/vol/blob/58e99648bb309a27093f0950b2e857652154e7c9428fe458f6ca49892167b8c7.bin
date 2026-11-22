@@ -1,0 +1,23 @@
+{
+  "activity": "demo",
+  "subject": "full-volume",
+  "platform": "host",
+  "revision": "3e1ecbc",
+  "created": "2026-11-21T11:00:22Z",
+  "class": "partial",
+  "claim": "A volume that fills keeps recording by retiring its oldest records, and a reader is told what a wrap retired.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "document": "docs/full-volume.md",
+    "platforms": [
+      "host"
+    ]
+  },
+  "payload": "{\"title\":\"Reclaiming a full volume\",\"description\":\"A device that never stops recording runs out of slot rather than time: the newest record is kept, the oldest is retired, and the boundary is read rather than discovered.\",\"platforms\":[\"host\"]}",
+  "content_hash": "sha256:acb4d76860afbdd1937e4ca4305956d74783f0146cbb62a232dc2a2bdf1aa954",
+  "ext": {
+    "planned": true
+  }
+}

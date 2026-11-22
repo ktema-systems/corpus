@@ -1,0 +1,20 @@
+{
+  "activity": "demo",
+  "subject": "fpga-icesugarpro-audit",
+  "platform": "fpga",
+  "revision": "d821994",
+  "created": "2026-11-15T08:35:00Z",
+  "class": "exhaustive",
+  "claim": "the record layer's shape under an audit: the limit, the intent, and the fact at one address, read six months later with no network, with the die refusing a changed set",
+  "parameters": {
+    "take": "20261115-083500",
+    "revision_inferred": true
+  },
+  "payload": "{\n  \"take\": \"20261115-083500\",\n  \"markers\": 12,\n  \"cast_bytes\": 6500,\n  \"caption_bytes\": 1782,\n  \"video_bytes\": 32157723\n}",
+  "content_hash": "sha256:06904caf76ae5f4488ca29b3dd3398dd3982da0a907d097181d792808719f0e9",
+  "object": {
+    "path": "corpus/out/demo/fpga-icesugarpro-audit/20261115-083500/final.mp4",
+    "bytes": 32157723,
+    "digest": "sha256:c820ff834e0e8308928dfb39881424912d9f36abc60a0f8057767aecc7b936ae"
+  }
+}

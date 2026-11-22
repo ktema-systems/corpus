@@ -1,0 +1,20 @@
+{
+  "activity": "demo",
+  "subject": "esp32s3_fpga-litewing_icesugarpro-witness",
+  "platform": "bare-metal",
+  "revision": "978be27",
+  "created": "2026-11-17T13:20:19Z",
+  "class": "exhaustive",
+  "claim": "the engine on the machine that wrote the record: the part keeps seventy-two records across a power cut, and a die that shares nothing with it but the identifiers recomputes them",
+  "parameters": {
+    "take": "20261117-132019",
+    "revision_inferred": true
+  },
+  "payload": "{\n  \"take\": \"20261117-132019\",\n  \"markers\": 16,\n  \"cast_bytes\": 32346,\n  \"caption_bytes\": 2156,\n  \"video_bytes\": 49581105\n}",
+  "content_hash": "sha256:3106216ba3f8e4c45745b581b52d3c3a63d02fe60b4790b0ff1b202c0ccfc570",
+  "object": {
+    "path": "corpus/out/demo/esp32s3_fpga-litewing_icesugarpro-witness/20261117-132019/final.mp4",
+    "bytes": 49581105,
+    "digest": "sha256:892bb600e2dacd7dfd2fb546e35e77a5756294e7a93705d85a7461c8c7e3b10c"
+  }
+}

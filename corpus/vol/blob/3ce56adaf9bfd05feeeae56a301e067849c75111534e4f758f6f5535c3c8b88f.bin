@@ -1,0 +1,22 @@
+{
+  "activity": "demo",
+  "subject": "region",
+  "platform": "host",
+  "revision": "91aff9d",
+  "created": "2026-11-12T18:40:22Z",
+  "class": "partial",
+  "claim": "The log is cut at each byte of its last record and every sixty-fourth byte after it. Every run opens, and none finds a record that was not there.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "revision_inferred": true
+  },
+  "payload": "{\"command\":\"verify/region/check.sh\",\"cast\":\"https://asciinema.org/a/tdsX5GReAen6H0ua\",\"poster\":\"/proofs/region.png\",\"video_bytes\":86229}",
+  "content_hash": "sha256:f5c656bad8dbb81c5ace26876de38a32813bcdd5ee74ccef84e563eb0c4bb5bd",
+  "object": {
+    "path": "/proofs/region.mp4",
+    "bytes": 86229,
+    "digest": "sha256:0b7f3ea9c300bf2d335266aa07d6083d902813605c3ddc9a54201563575277ba"
+  }
+}

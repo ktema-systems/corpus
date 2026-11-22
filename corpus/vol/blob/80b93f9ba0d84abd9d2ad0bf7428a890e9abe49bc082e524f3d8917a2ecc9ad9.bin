@@ -1,0 +1,22 @@
+{
+  "activity": "demo",
+  "subject": "device",
+  "platform": "bare-metal",
+  "revision": "91aff9d",
+  "created": "2026-11-12T18:40:22Z",
+  "class": "partial",
+  "claim": "A RISC-V device tier and the host write the same volume, byte for byte: 0x299bd5d0e1821fab on both.",
+  "kind": "fact",
+  "links": [],
+  "axes": {},
+  "parameters": {
+    "revision_inferred": true
+  },
+  "payload": "{\"command\":\"verify/device/check.sh\",\"cast\":\"https://asciinema.org/a/8UfhlLz8SXaISjrS\",\"poster\":\"/proofs/device.png\",\"video_bytes\":898140}",
+  "content_hash": "sha256:9302561d89ce5b6faa023ed7c4c8f50d92d4a1907ea71dad20f2805ed37e2dd9",
+  "object": {
+    "path": "/proofs/device.mp4",
+    "bytes": 898140,
+    "digest": "sha256:538b623fe6cacaae49ff5c07e500c2d895f7986ca3d646e6449b1c419cc728c1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "activity": "bench",
+  "subject": "volume-sweep",
+  "platform": "host",
+  "revision": "f42bf9b+",
+  "created": "2026-10-26T10:51:36Z",
+  "class": "partial",
+  "claim": "one volume was measured",
+  "parameters": {
+    "sizes": [
+      1000
+    ],
+    "profile": "release",
+    "samples": 51
+  },
+  "payload": "{\"commit\":\"f42bf9b\",\"dirty\":true,\"profile\":\"release\",\"samples\":51,\"units\":{\"medium\":\"bytes\",\"time\":\"microseconds\"},\"unix_seconds\":1793011896,\"volumes\":[{\"open_us\":16.208000000000002,\"point_read_accesses\":51,\"point_read_medium_bytes\":5799,\"point_read_us\":0.9590000000000001,\"query_answers\":101,\"query_medium_bytes\":751735,\"query_us\":140.416,\"records\":1000,\"region_bytes\":4962304,\"volume_bytes\":496776,\"write_medium_bytes\":482,\"write_us\":4.041}]}",
+  "content_hash": "sha256:073691be9541f8f7c5c4f8d5e250a87710a533c1a850e9c9f09d3f6441c99630"
+}
