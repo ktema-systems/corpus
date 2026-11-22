@@ -1,7 +1,7 @@
-# Ktema Systems Corpus
+# Ktema Systems Corpus Board
 
-The published records of Ktema Systems. This repository holds no source. A producer deposits
-what it has settled; a viewer reads it.
+The published records of Ktema Systems, as the corpus viewer's board is assembled from them.
+This repository holds no source. A producer deposits what it has settled; a viewer reads it.
 
 ## What it holds
 
@@ -18,15 +18,15 @@ what it has settled; a viewer reads it.
 
 ## Reading it
 
-Everything is served from `https://raw.githubusercontent.com/ktema-systems/corpus/main/`. A
-document's list is `export/documents.txt`.
+Everything is served from `https://raw.githubusercontent.com/ktema-systems/corpus-board/main/`.
+A document's list is `export/documents.txt`.
 
 `index.json` states the digest, what the repository holds, and the renderings built from it.
 
 ## Running it
 
 ```sh
-curl -sO https://raw.githubusercontent.com/ktema-systems/corpus/main/export/bench.json
+curl -sO https://raw.githubusercontent.com/ktema-systems/corpus-board/main/export/bench.json
 ```
 
 The digest in `export/digest` is over `export/` alone, so a copy can be checked without the
