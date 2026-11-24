@@ -16,7 +16,7 @@ ktma:
     A record set written by a part with no operating system is recomputed by a second reader on a
     die, and survives the power cut.
   evidence: "A two-reader check on the part, replayed from the console."
-  source: "/proofs/witness-take.mp4"
+  source: "https://pub-836aff2583c345ec8edfbd9fc6083ef0.r2.dev/demo/esp32s3_fpga-litewing_icesugarpro-witness/20261117-132019.mp4"
   poster: "/proofs/witness.jpg"
   posterAlt: >-
     The LiteWing flight controller on the left and the iCESugar-Pro on the right, the ECP5 lit

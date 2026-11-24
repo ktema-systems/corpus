@@ -16,7 +16,7 @@ ktma:
     Every value the die is handed is inside the alphabet, and one value outside it is refused
     rather than summed.
   evidence: "A gate-level recomputation of the values, on the part."
-  source: "/proofs/fpga-take.mp4"
+  source: "https://pub-836aff2583c345ec8edfbd9fc6083ef0.r2.dev/demo/fpga-icesugarpro-audit/20261115-083500-v3.mp4"
   poster: "/proofs/fpga.jpg"
   posterAlt: >-
     The iCESugar-Pro board, lit and connected, with the ECP5 under the RGB LED that carries the
