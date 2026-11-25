@@ -4,6 +4,7 @@ description: >-
   The seam written down rather than a port attempted: what a certified layer must hand over for
   the record to hold above it.
 ktma:
+  kind: "document"
   order: 17
   line: "attaches-to-what-a-team-ships"
   products: ["Ktema"]

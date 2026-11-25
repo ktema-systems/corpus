@@ -4,6 +4,7 @@ description: >-
   A device that never stops recording runs out of slot rather than time: the newest record is
   kept, the oldest is retired, and the boundary is read rather than discovered.
 ktma:
+  kind: "document"
   order: 13
   line: "record-on-the-machine"
   products: ["Ktema"]

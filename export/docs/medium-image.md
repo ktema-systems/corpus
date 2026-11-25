@@ -4,6 +4,7 @@ description: >-
   The partition a device wrote is dumped and opened on a host, so a reader needs the medium rather
   than the device or a network.
 ktma:
+  kind: "document"
   order: 11
   line: "medium-survives-the-cut"
   products: ["Ktema"]
