@@ -9,7 +9,7 @@ ktma:
   id: "esp32s3_fpga-litewing_icesugarpro-witness"
   line: "second-reader"
   order: 1
-  kind: "video"
+  kind: "document"
   products: ["Ktema"]
   platforms: ["bare-metal", "fpga"]
   claim: >-

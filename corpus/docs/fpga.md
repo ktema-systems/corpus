@@ -9,7 +9,7 @@ ktma:
   id: "fpga-icesugarpro-audit"
   line: "second-reader"
   order: 3
-  kind: "video"
+  kind: "document"
   products: ["Ktema"]
   platforms: ["fpga"]
   claim: >-
