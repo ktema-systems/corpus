@@ -4,7 +4,6 @@ description: >-
   The check a reader makes instead of trusting the writer, taken on a host where a byte can be
   changed and the answer compared.
 ktma:
-  kind: "document"
   order: 12
   line: "second-reader"
   products: ["Ktema"]

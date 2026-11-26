@@ -10,7 +10,6 @@ kernel-seam.md
 medium-image.md
 outside-the-alphabet.md
 reader-check.md
-robot-dataset.md
 robot.md
 rtos-module.md
 runs.md

@@ -4,7 +4,6 @@ description: >-
   The LiteWing on the bench, switched on with nothing recorded, taking the record of a flight into
   its own flash and showing what the next boot reads.
 ktma:
-  kind: "document"
   order: 10
   line: "record-on-the-machine"
   products: ["Ktema"]

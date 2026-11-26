@@ -4,7 +4,6 @@ description: >-
   What a firmware team is handed: a header, a library per target, the specification, and an
   example that links and exits zero.
 ktma:
-  kind: "document"
   order: 15
   line: "attaches-to-what-a-team-ships"
   products: ["Ktema"]

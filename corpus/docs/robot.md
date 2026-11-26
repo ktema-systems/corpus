@@ -4,7 +4,6 @@ description: >-
   A walking robot as the room a device answers in: every step, sensor reading and phone reach
   recorded at one address.
 ktma:
-  kind: "document"
   order: 18
   line: "cockpit-over-the-record"
   products: ["Kletos"]

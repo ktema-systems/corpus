@@ -4,7 +4,6 @@ description: >-
   The die stops checking values a host computed and derives the address itself, so the fabric is a
   second implementation of the address form rather than a checker of the host’s answer.
 ktma:
-  kind: "document"
   order: 14
   line: "second-reader"
   products: ["Ktema"]

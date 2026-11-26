@@ -2,7 +2,6 @@
 title: "Integration with a shipped RTOS"
 description: "The same engine as a member of an RTOS build, for a team whose product already has one."
 ktma:
-  kind: "document"
   order: 16
   line: "attaches-to-what-a-team-ships"
   products: ["Ktema"]
