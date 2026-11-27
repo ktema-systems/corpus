@@ -1,36 +1,29 @@
 # Ktema Systems Corpus Board
 
-The published records of Ktema Systems, as the corpus viewer's board is assembled from them.
-This repository holds no source. A producer deposits what it has settled; a viewer reads it.
+The records the Ktema Systems corpus publishes: what each run measured, the documents
+written about it, and the rows a viewer draws.
 
 ## What it holds
 
 | Path | What it is |
 |---|---|
-| `corpus/vol/` | the volume the engine wrote: one record per address |
-| `corpus/docs/` | the documents as written |
-| `corpus/master.md` | the plan behind the corpus |
-| `corpus/subjects.json`, `corpus/depends.json` | the subjects a run belongs to, and the claims a page rests on |
 | `export/` | the corpus as a viewer reads it: `bench.json`, `corpus.json`, `runs.json`, `values.json`, `docs/`, `documents.txt`, `digest` |
+| `corpus/docs/` | the documents as written |
+| `corpus/vol/` | the records, one file per address |
+| `corpus/subjects.json`, `corpus/depends.json` | the subjects a run belongs to, and the claims a page rests on |
 
-`export/` is derived from `corpus/vol/`. A viewer reads `export/`, because a viewer that opened
-`vol/` directly would make the engine's frame format a public interface.
+`export/` is derived from `corpus/vol/` and is what the viewer reads. `export/digest` is over
+that directory alone, so a copy can be checked without the volume.
 
 ## Reading it
 
 Everything is served from `https://raw.githubusercontent.com/ktema-systems/corpus-board/main/`.
-A document's list is `export/documents.txt`.
-
-`index.json` states the digest, what the repository holds, and the renderings built from it.
-
-## Running it
+`index.json` states the digest, what the board holds, and the pages built from it.
+`export/documents.txt` lists the documents.
 
 ```sh
 curl -sO https://raw.githubusercontent.com/ktema-systems/corpus-board/main/export/bench.json
 ```
-
-The digest in `export/digest` is over `export/` alone, so a copy can be checked without the
-volume.
 
 ## Licence
 
