@@ -124,11 +124,11 @@
     },
     {
       "kind": "bundle",
-      "name": "ktema-fmt0.1-abi7-d28e1ba-eval-aarch64-apple-darwin.tar.gz",
-      "url": "https://github.com/ktema-systems/ktema-hub/releases/download/v0/ktema-fmt0.1-abi7-d28e1ba-eval-aarch64-apple-darwin.tar.gz",
-      "sha256": "sha256:f3b6b588b7f184a28223e09ddbd49c4be425dc6fe6563b27bac90fa3b3b21d5d",
+      "name": "ktema-fmt0.1-abi7-a9f5d18-eval-aarch64-apple-darwin.tar.gz",
+      "url": "https://github.com/ktema-systems/ktema-hub/releases/download/v0/ktema-fmt0.1-abi7-a9f5d18-eval-aarch64-apple-darwin.tar.gz",
+      "sha256": "sha256:21e28cafeceb9fc033d3e83550896552ddb8b6f1b42c251638c13b734af92b44",
       "signature": "SHA256SUMS.sig",
-      "bytes": 11319368
+      "bytes": 7024121
     },
     {
       "kind": "demo",
